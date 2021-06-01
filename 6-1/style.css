@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    height: 3000px;
+}
+
+i {
+    color: green;
+    font-style: normal;
+    font-size: 64px;
+    text-decoration: underline;
+    background: #8b71ff;
+    transition: all 5s;
+    display: block;
+}
+
+
+i:hover {
+    background: red;
+    color: yellow;
+    transform: rotate(90deg);
+}
+
+p {
+    color: orange;
+    text-decoration: line-through;
+    font-size: 24px;
+}
+
+h3 {
+    color: green;
+    font-style: bold;
+    font-size: 30px;
+    border: 2px solid blue;
+    padding: 30px;
+    margin: 40px;
+}
+
+
+nav {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
