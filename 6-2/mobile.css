@@ -1,0 +1,21 @@
+h3{
+    color: pink;
+}
+
+
+#allMyDucks{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.ducks {
+    background: cyan;
+    margin: 2px;
+    width: 100%;
+    height: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
